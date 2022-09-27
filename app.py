@@ -38,7 +38,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def welcome():
-    """List all available api routes."""
+    """List all available API routes."""
     return (
         f"Aloha! This is the Hawaii Weather API!<br/>"
         f"Use these routes to surf the site:<br/>"
